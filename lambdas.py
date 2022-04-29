@@ -9,3 +9,6 @@ for n in range(200):
    func_plt.append(funcao(n))
 plt.plot(func_plt)
 plt.show()
+
+# É utilizado o lambda para definir uma função anônima
+# que será utilizada posteriormente.
