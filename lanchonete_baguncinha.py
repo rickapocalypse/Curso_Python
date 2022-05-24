@@ -1,4 +1,3 @@
-
 def limpTela():
     print('\n' * 100)
 
@@ -40,12 +39,13 @@ def menu4():
     return x
 
 def carrinho1():
+    carrinho = {}
     for n in pedido:
         c = pedido.count(n)
         carrinho.update({n: c})
+    limpTela()
     return(carrinho)
 
-carrinho = {}
 pedido = []
 
 while True:
