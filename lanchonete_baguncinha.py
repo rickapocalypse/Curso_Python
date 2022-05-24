@@ -1,11 +1,15 @@
 
+def limpTela():
+    print('\n' * 100)
+
 def menu1():
     print('Escolha uma opção')
     print('1 - lanches')
     print('2 - bebidas')
     print('3 - mostrar pedido')
-    print('4 - sair')
+    print('4 - finalizar')
     x = int(input(f'No que posso te ajudar? '))
+    limpTela()
     return x
 
 def menu2():
@@ -14,6 +18,7 @@ def menu2():
     print('3 - x-podrao')
     print('4 - voltar ao menu inicial')
     x = int(input(f'No que posso te ajudar? '))
+    limpTela()
     return x
 
 def menu3():
@@ -22,6 +27,7 @@ def menu3():
     print('3 - cerveja')
     print('4 - voltar ao menu inicial')
     x = int(input(f'No que posso te ajudar? '))
+    limpTela()
     return x
 
 def menu4():
@@ -30,6 +36,7 @@ def menu4():
     print('2 - voltar ao menu inicial')
     print('3 - finalizar pedido')
     x = int(input(f'No que posso te ajudar? '))
+    limpTela()
     return x
 
 def carrinho1():
@@ -92,7 +99,6 @@ while True:
             print(f'Seu pedido é: {pedido}')
             break
     elif x == 4:
-        print('sair')
-        print(f'Seu pedido é: {pedido}')
+        print('Pedido finalizado')
+        print(f'O seu pedido é: {pedido}')
         break
-    print('\n')
