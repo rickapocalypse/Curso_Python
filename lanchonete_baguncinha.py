@@ -24,6 +24,21 @@ def menu3():
     x = int(input(f'No que posso te ajudar? '))
     return x
 
+def menu4():
+    print(carrinho1())
+    print('1 - Alterar pedido')
+    print('2 - voltar ao menu inicial')
+    print('3 - finalizar pedido')
+    x = int(input(f'No que posso te ajudar? '))
+    return x
+
+def carrinho1():
+    for n in pedido:
+        c = pedido.count(n)
+        carrinho.update({n: c})
+    return(carrinho)
+
+carrinho = {}
 pedido = []
 
 while True:
@@ -55,8 +70,29 @@ while True:
         elif x == 4:
             print('voltar ao menu inicial')
     elif x == 3:
-        print(pedido)
+        x = menu4()
+        if x == 1:
+            c = 1
+            print('0 - Para voltar ao menu inicial')
+            
+            for n in pedido:
+                print(f'{c} - {n}')
+                c += 1
+            p = int(input(('Deseja retirar ou voltar ao menu: ')))
+            
+            if p == 0:
+                print('voltar ao menu inicial')
+            else:
+                pedido.pop(p-1)
+                print(carrinho1())
+        
+        elif x == 2:
+            print('voltar ao menu inicial')
+        elif x == 3:
+            print(f'Seu pedido é: {pedido}')
+            break
     elif x == 4:
         print('sair')
         print(f'Seu pedido é: {pedido}')
         break
+    print('\n')
