@@ -1,0 +1,2 @@
+Escrever dados em arquivos é fácil. 
+Acesse o site https://www.python.org.br
