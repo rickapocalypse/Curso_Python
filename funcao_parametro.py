@@ -61,6 +61,3 @@ def soma_impares(numeros):
             total = total + num
     return total
 
-lista = list(range(1,8))
-
-print(soma_impares(lista))
