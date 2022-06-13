@@ -1,0 +1,12 @@
+Suzano 200
+Mogi 400
+São Paulo 1000
+São jose do Rio Preto 400
+Cozumel 100
+Petropolis 400
+Cuiabá 100
+Lucas do Rio Verde 50
+Mogi Mirim 40
+Itaqua 600
+Santa Isabel 500
+Quaresmeira 600  
