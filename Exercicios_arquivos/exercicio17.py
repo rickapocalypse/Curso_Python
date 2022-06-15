@@ -15,4 +15,5 @@ for line in range(int(lines[0][0])):
 matriz[int(lines[1][0])][int(lines[1][2])] = 0
 matriz[int(lines[2][0])][int(lines[2][2])] = 0
 
-print(matriz)
+print('\n'.join([''.join(['{:4}'.format(item) for item in row])
+                 for row in matriz]))

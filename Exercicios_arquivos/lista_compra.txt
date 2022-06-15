@@ -1,0 +1,8 @@
+5 pêssego 2
+4 maça 3
+10 maracujá 2
+1 melancia 8
+3 hotdog 5
+20 papel higiénico 0.3
+40 balas fini 1
+2 pacote arroz 6
