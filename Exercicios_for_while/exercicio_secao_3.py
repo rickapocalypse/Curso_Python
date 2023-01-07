@@ -46,7 +46,7 @@ if status:
                 maior = x
             if x <= menor:
                 menor = x
-            
+
  
 
 
